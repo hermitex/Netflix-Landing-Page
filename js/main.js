@@ -42,7 +42,7 @@ const showCountDown = setInterval(() => {
 	${check(date)}/${check(month)}`;
 
 
-    document.getElementById("date1").innerHTML = ` ${check(date)}/${check(month + 1)}`;
+    document.getElementById("date1").innerHTML = `${check(date)}/${check(month + 1)}`;
 
 
 }, (1000));
